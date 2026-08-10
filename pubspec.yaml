@@ -1,0 +1,22 @@
+name: secret_vault
+description: "A secure personal vault application for your files."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.2
+  flutter_secure_storage: ^9.2.2
+  file_picker: ^8.0.8
+  encrypt: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
